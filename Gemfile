@@ -36,6 +36,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'carrierwave'
 gem 'cancancan'
+gem 'mini_magick'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

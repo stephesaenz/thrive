@@ -7,7 +7,7 @@
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  <%=  number_to_currency @product.price %>
 </p>
 
 <p>
@@ -32,3 +32,7 @@
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
+
+<% if @product.image.nil? == false %>
+  <p><%= image_tag @product.image %></p>
+<% end %>
