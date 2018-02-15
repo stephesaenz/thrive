@@ -37,6 +37,8 @@ gem 'devise'
 gem 'carrierwave'
 gem 'cancancan'
 gem 'mini_magick'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'figaro'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
