@@ -19,6 +19,8 @@ Rails.application.routes.draw do
 
   get 'branding' => 'storefront#items_by_brand'
 
+  post 'order_complete' => 'cart#order_complete'
+
   resources :products
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
